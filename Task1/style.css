@@ -1,0 +1,38 @@
+
+.container{
+    width:30%;
+    margin: auto;
+}
+.table{
+    margin: auto;
+    width: 100%;
+    border:1px solid;
+}
+
+.table-title{
+    text-align: center;
+}
+.table__row{
+    background: yellow;
+    text-align: right;
+}
+
+.col1{
+    width: 40%;
+}
+
+.col2{
+    width: 25%;
+}
+
+.col3{
+    width:35%;
+}
+
+#r11{
+    background: darksalmon;
+    text-align: center;
+}
+.table td,th{
+    border:1px solid
+}
