@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    background:linear-gradient(-135deg ,rgba(184, 0, 196) 0% , rgba(131, 0, 205) 100%);
+}
+.container{
+    width: 75%;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    width: 90%;
+    border: 0px solid black;
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 6px 14px rgba(136, 135, 197);
+    border-radius: 25px;
+    background: white;
+    justify-content: space-between;
+}
+.card__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    img{
+        width: 200px  ;
+    }
+}
+.card__2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    width: 90%;
+}
+
+.card__title{
+    
+    font-size: large;
+    font-weight: bold;
+    padding: 60px 0 25px 0;
+    margin: 0 0 7px 0;
+    text-align: center;
+}   
+
+
+.inputs, .buttons{
+    width: 100%;
+} 
+
+.buttons button{
+    width: 100%;
+    border: 1px;
+    height: 40px;
+    border-radius: 25px;
+    background: rgba(31, 204, 68);
+    color:white;
+    
+}
+
+.end{
+    margin-top: 10px;
+    color: black
+}
+
+.new{
+    padding :0;
+    margin: 30px 0 40px 0;
+    font-size: smalls;
+    a{
+        color: rgba(31, 204, 68);
+        text-decoration: none;
+    }
+    text-align: center;
+}
+
+input[type = "text"] , input[type = "password"] {
+    height: 40px;
+    font-size: small;
+    border-radius: 25px;
+    background: rgba(229, 229, 229);
+    border: 0px;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 30px;   
+    background-repeat: no-repeat;
+    background-position: 15px center; /* Aligns icon 15px from left, vertically centered */
+    background-size: 16px 16px;       /* Forces the icon to a standard size */
+    padding-left: 40px; 
+
+}
+
+#email{
+    background-image: url('assets/email.svg');
+}
+
+input[type = "password"] {
+    background-image: url('assets/pass.svg');
+
+}
