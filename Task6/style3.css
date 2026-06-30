@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    border:10px solid rgba(217, 164, 31);
+}
+
+p{
+        display: flex;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center;  
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-weight: bol;
+}
+
+.grid :nth-child(1) {
+    background:rgba(27, 188, 155);
+}
+.grid :nth-child(2) {
+    background:rgba(53, 152, 219);
+}
+.grid :nth-child(3) {
+    background:rgba(154, 89, 181);
+}
+.grid :nth-child(4) {
+    background:rgba(52, 73, 94);
+}
+.grid :nth-child(5) {
+    background:rgba(241, 196, 15);
+}
+.grid :nth-child(6) {
+    background:rgba(230, 127, 34);
+}
+.grid :nth-child(7) {
+    background:rgba(232, 76, 61);
+}
+.grid :nth-child(8) {
+    background:rgba(190, 195, 199);
+}
+.grid :nth-child(9) {
+    background:rgba(45, 204, 112);
+}
+
+.grid :nth-child(10) {
+    background:rgba(22, 160, 134);
+}
+
+
+
+
