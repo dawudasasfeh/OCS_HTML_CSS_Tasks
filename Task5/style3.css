@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-image{
+    width :200px;
+    height: 200px;
+    position: fixed;
+    left: 70%;
+}

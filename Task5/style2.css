@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(255, 255, 205);
+}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+    "div1 "
+    "div2 "
+    "div3 ";
+    grid-template-columns: 1fr 0.4fr;
+    gap: 10px;
+
+    padding: 30px 20px;
+
+}
+
+.div1{
+    grid-area:div1;
+}
+
+.div2{
+    grid-area: div2;
+}
+
+.div3{
+    grid-area: div3;
+}
+
+.grid__div{
+    background: white;
+    border:1px solid black;
+    padding: 25px 10px;
+    
+}
+
+.div3{
+    border: 1px dotted red;
+    color: red;
+    p{
+        border: 1px dotted red;
+    }
+}
+
+.p__orange{
+    background: rgba(250, 203, 148);
+    font-weight: bold;
+}
+
+.p__yellow{
+    background: rgba(252, 252, 146);
+    font-weight: bold;
+}
