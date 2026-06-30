@@ -30,3 +30,4 @@ Here is CSS Tasks 1-6 solution
 * [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index2.html)
 * [C](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index3.html)
 * [D](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index4.html)
+* [E](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index5.html)

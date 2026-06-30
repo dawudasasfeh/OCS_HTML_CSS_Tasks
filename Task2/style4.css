@@ -57,7 +57,7 @@ body{
 
 label{
     color: rgba(47, 182, 162);
-    padding: 0 0 0 80px;
+    padding: 0 0 0 8px;
     margin: 0;
 }
 .inputs, .buttons{
