@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.title {
+    background: rgba(139, 68, 31);
+    text-align: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.pages{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.pages a{
+    margin-top: 20px;
+    color : rgba(67, 108, 40);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.body{
+    background: rgba(210, 162, 98);
+    height: 60vh;
+}
+
+.body h2{
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.body p{
+    color: rgba(129, 74, 48);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#copy{
+    color: black;
+}
