@@ -1,29 +1,32 @@
+# OCS HTML CSS Tasks
+
 Here is CSS Tasks 1-6 solution
 
 ## Task1: 
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task1/index.html" target="_blank">A</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task1/index.html)
+    
 ## Task2: 
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index1.html" target="_blank">A</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index2.html" target="_blank">B</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index3.html" target="_blank">C</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index4.html" target="_blank">D</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index1.html)
+* [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index2.html)
+* [C](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index3.html)
+* [D](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task2/index4.html)
 
 ## Task3:
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task3/index1.html" target="_blank">A</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task3/index2.html" target="_blank">B</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task3/index1.html)
+* [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task3/index2.html)
 
 ## Task4:
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index1.html" target="_blank">A</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index2.html" target="_blank">B</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index3.html" target="_blank">C</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index1.html)
+* [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index2.html)
+* [C](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task4/index3.html)
 
 ## Task5: 
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index1.html" target="_blank">A</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index2.html" target="_blank">B</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index3.html" target="_blank">C</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index1.html)
+* [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index2.html)
+* [C](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task5/index3.html)
 
 ## Task6:
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index1.html" target="_blank">A</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index2.html" target="_blank">B</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index3.html" target="_blank">C</a>
-    <a href="https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index4.html" target="_blank">D</a>
+* [A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index1.html)
+* [B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index2.html)
+* [C](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index3.html)
+* [D](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Task6/index4.html)
