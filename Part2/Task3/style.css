@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;  
+    background: rgba(52, 153, 221);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.blue{
+    color: rgba(52, 153, 221);
+}
+
+.card{
+    width: 400px;
+    border: 0px solid black;
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 6px 14px rgba(136, 135, 197);
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+
+}
+
+.card__title{
+    
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 30px 0 5px 0;
+    margin: 0 0 7px 0;
+}
+.card__txt{
+    color: gray;
+}
+hr{
+    width: 100%;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.inputs{
+    width: 100%;
+} 
+
+
+.fp-btn{
+    background: none;
+    border: none;
+    font-size: small;
+}
+
+
+.buttons button{
+    width: 140px;
+    border: 1px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    background: rgba(52, 153, 221);
+    
+}
+
+
+.end{
+    margin-top: 10px;
+    color: white;
+}
+
+.new{
+    padding :0;
+    margin: 5px 0 20px 0;
+    font-size: medium;
+    color: white;
+    a{
+        color: white;
+    }
+}
+
+input[type = "text"] , input[type = "password"] {
+    height: 40px;
+    font-size: medium;
+    border-radius: 2px;
+    border: 0px;
+    padding-left: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    background: rgba(242, 242, 242);
+}
+
+.check{
+    display: flex;
+    margin-bottom: 10px;
+}
+.check p{
+    color: gray;
+}
+.check input{
+    background: red;
+}
+
+@media (max-width:576px) {
+    .card{
+        align-items: center;
+        width: 350px;
+    }
+    .name{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .buttons button{
+        width:300px;
+    }
+    .body{
+        gap: 0px;
+    }
+
+    
+}

@@ -1,0 +1,127 @@
+*{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(3, 18, 52);
+    color: rgba(137, 63, 76);
+    font-size: sma;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+}
+
+.header__links{
+        display: flex;gap:20px;
+        color: white;
+}
+
+.nav__icon{
+    display: none;
+}
+
+.header__links a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    color: rgb(36, 49, 88);
+    font-weight: bold;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.field label{
+    text-align: start;
+    font-size: x-small;
+}
+
+.field input{
+    height: 35px;
+    width: 500px;
+    margin-top: 10px;
+}
+p{
+    font-size: small;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    background: rgba(239, 224, 202);
+    color: rgba(41, 47, 65);
+}
+
+
+@media (max-width:576px) {
+    .nav__icon{
+        display: inline;
+    }
+
+    .header__links {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background: rgba(3, 18, 52);
+        width: 180px;
+        padding: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .header__links a {
+        display: block;
+        padding: 10px 0;
+    }
+    .nav__icon{
+    color:white;
+}
+
+    .header__nav:hover {
+        .header__links{
+        display: block;
+        }
+    }
+
+    .field input{
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+}
+     .contact-us{
+        gap: 250px
+        ;
+     }
+}
