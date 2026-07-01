@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    text-align: center;
+}
+
+.services__cards{
+    display: grid;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about{
+    display: flex;
+}
+
+
+.about__right{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 992px) {
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}

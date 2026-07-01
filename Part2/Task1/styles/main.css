@@ -1,0 +1,13 @@
+@import "base/reset.css";
+@import "base/typography.css";
+
+@import "component/hero.css";
+@import "component/btn.css";
+@import "component/card.css";
+@import "component/footer.css";
+
+@import "layout/header.css";
+@import "layout/main.css";
+@import "layout/footer.css";
+
+@import "pages/landing.css";

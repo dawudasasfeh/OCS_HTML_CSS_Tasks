@@ -1,0 +1,37 @@
+body{
+    font-size: large;
+}
+
+.header__link{
+    color: black;
+    text-decoration: none;
+}
+
+.header__link:hover{
+    color: rgba(32, 115, 199);
+}
+
+
+.hero{
+    color: white;
+}
+
+.card p{
+
+    font-size: medium;
+    
+}
+
+.about p{
+    font-size: medium;
+}
+
+.footer{
+    color: white;
+}
+
+@media (max-width:567px) {
+    *{
+        text-align: center;
+    }
+}
