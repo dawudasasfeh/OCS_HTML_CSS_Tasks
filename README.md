@@ -34,5 +34,9 @@ Here is CSS Tasks 1-6 solution
 
 # OCS CSS Tasks(Part two)
 
-## Part2:
 * [Task1](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Part2/Task1/index.html)
+
+* [Task3A](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Part2/Task3/index1.html)
+
+* [Task3B](https://dawudasasfeh.github.io/OCS_HTML_CSS_Tasks/Part2/Task3/index2.html)
+
