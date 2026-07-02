@@ -1,6 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 50px;
+
+}
+
+nav :first-child{
+    font-size: small;
+}
+
 .category-btn {
-    background-color: #ede9fe;   /* Light violet */
-    color: #754ffe;              /* Violet */
+    background-color: #ede9fe; 
+    color: #754ffe;            
     border: none;
     border-radius: 6px;
     padding: 10px 18px;
@@ -20,22 +35,26 @@
 .icon-btn{
     width: 45px;
     height: 45px;
-    border-radius: 50%;
-    background: #f8f9fa;
-    border: none;
-    color: #000;
+    font-size: 18px;
+}
+
+.play{
+    background: rgba(30, 190, 244);
+    color: white;
+    width: 35px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    flex-direction: column;
 }
 
 .signin-btn{
     border: 1px solid #754ffe;
     color: #754ffe;
-    background: white;
     padding: 10px 22px;
     font-weight: 600;
+    font-size: small;
 }
 
 .signin-btn:hover{
@@ -48,6 +67,7 @@
     color: white;
     padding: 10px 22px;
     font-weight: 600;
+    font-size: small;
 }
 
 .signup-btn:hover{
@@ -55,47 +75,49 @@
     color: white;
 }
 
-.courses-tabs {
+.tabs {
     background-color: #e9eef5;
     border-radius: 6px;
     padding: 0 20px;
 }
 
-.courses-tabs .nav-link {
+.tabs .nav-link {
     color: #6c757d;
     padding: 18px 30px;
 }
 
-.courses-tabs .nav-link.active {
+.tabs .nav-link:active {
     color: #754ffe;
     border-bottom: 3px solid #754ffe;
 }
 
-.course-card {
-    border: none;
-    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+.tabs .nav-link:hover {
+    color: #754ffe;
+    border-bottom: 3px solid #754ffe;
 }
 
-.course-img {
-    height: 120px;
-    border-radius: 8px 8px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 700;
+
+.enroll{
+    color: rgba(111, 66, 193);
+    cursor: pointer;
+}
+.fav{
+    .fav-off{
+        display: block;
+    }
+    .fav-on{
+        display: none;
+    }
+}
+.fav:active, .fav:hover{
+    .fav-off{
+        display: none;
+    }
+    .fav-on{
+        display: block;
+        color: red;
+    }
+    
+    
 }
 
-.course-card h5 {
-    font-size: 16px;
-    margin-top: 18px;
-}
-
-.course-card p {
-    font-size: 14px;
-    color: #6c757d;
-}
-
-.rating {
-    color: orange !important;
-}
